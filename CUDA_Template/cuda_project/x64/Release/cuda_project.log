@@ -1,0 +1,50 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\kd647\Downloads\cuda_project\cuda_project>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_60,code=\"sm_60,compute_60\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.2\common\inc" -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static -fmad=false   -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS   /MD " -o x64\Release\main.cu.obj "C:\Users\kd647\Downloads\cuda_project\cuda_project\main.cu" -Xcompiler -openmp 
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(33): warning : variable "ori_x" was declared but never referenced
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(34): warning : variable "ori_y" was declared but never referenced
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(83): warning : variable "ori_x" was declared but never referenced
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(84): warning : variable "ori_y" was declared but never referenced
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(127): warning : return type of function "main" must be "int"
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(164): warning : variable "index" was declared but never referenced
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(175): warning : variable "index" was declared but never referenced
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(247): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(331): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(423): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(127): warning : return type of function "main" must be "int"
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(247): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(331): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(423): warning : conversion from a string literal to "char *" is deprecated
+  
+  main.cu
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(152): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(152): note: 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(153): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(153): note: 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(154): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(154): note: 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(208): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(272): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(273): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(303): warning C4244: '인수': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(362): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:/Users/kd647/Downloads/cuda_project/cuda_project/main.cu(393): warning C4244: '인수': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     C:\Users\kd647\Downloads\cuda_project\x64\Release\cuda_project.lib 라이브러리 및 C:\Users\kd647\Downloads\cuda_project\x64\Release\cuda_project.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 86 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  cuda_project.vcxproj -> C:\Users\kd647\Downloads\cuda_project\x64\Release\cuda_project.exe
